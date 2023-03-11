@@ -5,7 +5,7 @@ using namespace std;
 int deleting(int arr[],int size,int x){
     int i;
     //Searching
-    for(i = 0;i < size;i++){
+    for(i = 0;i < size;i++){ //Linear Search
         if(arr[i] == x){
             break;
         }
